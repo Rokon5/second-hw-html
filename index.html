@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second-hw</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>HTML part two assignment</h1>
+
+    <p>Image tag:</p>
+    <img src="images/garden.jpg" alt="lotus-image" width="400px">
+    <p>input element:</p>
+    <form action="">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" placeholder="enter your first name"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="enter your last name"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>Ins or Del tag:</p>
+    <h2>My favourite colour is <del>red</del> blue</h2>
+    <p>Label element:</p>
+    <form action="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_label" target="_blank">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p>Legend element:</p>
+    <form action="">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fnam">First name:</label>
+            <input type="text" id="fnam" name="fname"><br><br>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gamil.com"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <p> <abbr title="Order list">Ol</abbr> and <abbr title="Unorderlist">Ul</abbr> element:</p>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <p>The ul element defines an unordered list:</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <p>Mark element:</p>
+    <h3>Dont forget to join the class <mark>today.</mark></h3>
+    <p>meter tag:</p>
+
+    <meter id="disk_c" value="2" low="3" min="0" max="10">2 out of 10</meter><br>
+    <meter id="disk_d" value="0.6">65%</meter>
+
+    <p>Nav tag:</p>
+    <nav>
+        <a href="./images/garden.jpg">IMAGES</a> |
+        <a href="./css/style.css">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/python/">Python</a>
+    </nav>
+
+    <p>Param element:</p>
+    <object data="ringtones/ringtone.mp3">
+        <!-- <param name="autoplay" value="true"> -->
+    </object>
+
+    <p><abbr title="Resize the browser window to load different images.">Picture element:</abbr></p>
+    <picture>
+        <source media="(min-width:650px)" srcset="images/lotus.jpg">
+        <source media="(min-width:465px)" srcset="images/rose.jpg">
+        <img src="images/lotus.jpg" alt="Flowers" style="width:400px;">
+    </picture>
+    <p>Sub and Sup element:</p>
+    <p>This text contains <sub>subscript</sub> text.</p>
+    <p>This text contains <sup>superscript</sup> text.</p>
+
+    <p>S element:</p>
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+
+    <h4>The thead, tbody, and tfoot elements:</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Audio element:</p>
+    <audio controls>
+        <source src="ringtones/ringtone.mp3" type="audio/mp3">
+    </audio>
+<p>Video element:</p>
+<video width="420" height="340" controls>
+  <source src="./videos/movie.mp4" type="video/mp4">
+</video>
+
+<p>Play youtube videos in html </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8kwlW1yJiJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+</body>
+
+</html>
